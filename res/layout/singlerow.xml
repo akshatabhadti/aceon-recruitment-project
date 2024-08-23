@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.cardview.widget.CardView app:cardUseCompatPadding="true" android:elevation="4dp" app:cardCornerRadius="5dp" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/java" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:layout_centerHorizontal="true"
+        android:text="JAVA DEVELOPER"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:text="Should have basic knowledge"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

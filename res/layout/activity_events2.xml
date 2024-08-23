@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    tools:context=".events2"
+    android:background="@drawable/code"
+    android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:src="@drawable/java"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/desc_img"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/desc_header"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"
+        android:text="JAVA DEVELOPER"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cname"
+        android:layout_gravity="center_horizontal"
+        android:text="AMAZON"
+        android:layout_marginStart="0dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/desc_desc"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="This is a sample description to show information about the job/internship offered, its requirements and other qualifications content."
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startDate"
+        android:text="Start Date: 30/06/2022"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/btnApply"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:background="@drawable/roundedcorner"
+        android:text="APPLY NOW"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
